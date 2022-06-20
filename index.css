@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+   ),  url("./images/pageFondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+/* Register */
+
+.form-register{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.controls {
+    background: salmon;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid rebeccapurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    text-align: center;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+}
+
+.form-register a {
+   color: #fff;
+   text-decoration: none;
+   background: none;
+   padding: 3px 10px;
+}
+
+.form-register .botons {
+    background: salmon;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.botons:hover{
+    background: rgb(231, 161, 154);
+}
+
+.fuente {
+    font-weight: bold;
+}
+
+#mensaje{
+    display: none;
+}
+
+/* Navbar */
+a{
+    background: salmon;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-left: 3px;
+}
+
+a:hover{
+    background: rgb(231, 161, 154);
+}
+
+.menuNav {
+    display: flex;
+    justify-content: center;
+    background: rebeccapurple;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background: rgb(36, 35, 37);
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+}
+
+/* Tabla */
+
+#titleContact {
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+th{
+    border: solid 1px;
+    background: rgb(36, 35, 37);
+    margin-left: 10px;
+}
+td{
+    border: solid 1px;
+    background: rgb(36, 35, 37);
+}
