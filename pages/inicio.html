@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>Inicio</title>
+</head>
+<body>
+    
+    <form class="form-register" id="inicio" method="post" action="">
+        <h2>Development web full stack</h2>
+        <h3>Iniciar Sesion</h3>
+            <label for="email">Email</label>
+            <span class="warning" id="warningEmail"></span>  
+            <input
+                id="email"   
+                class="controls" 
+                type="email" 
+                placeholder="Ingrese su email" 
+                maxlength="30"
+                >  
+
+            <label for="pas">Password</label>
+            <span class="warning" id="warningPassword"></span>
+            <input 
+                id="password"
+                class="controls" 
+                type="password" 
+                placeholder="ingrese su contraseña"
+                maxlength="20" 
+                >
+
+            <button class="botons" id="btnIniciarSesion" type="button">Iniciar</button>
+            <p><a href="./formulario.html">Crear una cuenta</a></p>
+    </form>
+
+    <script src="../app.js"></script>   
+</body>
+</html>

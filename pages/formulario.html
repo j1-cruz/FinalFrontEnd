@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+
+    <h2>Development web full stack</h2>
+
+    <form class="form-register" id="form" method="post" action="">
+        <h3>Create a new account</h3>
+
+        <label for="name">Name</label>
+            <span class="warning" id="warningName"></span>  
+            <input
+                id="name"   
+                class="controls" 
+                type="text"
+                placeholder="Ingrese su Nombre" 
+                maxlength="15"
+                >  
+
+        <label for="lastname">Lastname</label>
+            <span class="warning" id="warningLastName"></span>  
+            <input
+                id="lastname"   
+                class="controls" 
+                type="text"
+                placeholder="Ingrese su apellido" 
+                maxlength="20"
+                >    
+
+        <label for="emailForm">Email</label>
+        <span class="warning" id="warningEmailForm"></span>  
+        <input
+            id="emailForm"   
+            class="controls" 
+            type="email" 
+            placeholder="Ingrese su email" 
+            maxlength="30"
+            > 
+
+            <label for="passwordForm">Password</label>
+            <span class="warning" id="warningPasswordCorto"></span>
+            <span class="warning" id="warningPasswordIngresar"></span>
+            <input 
+                id="passwordForm"
+                class="controls" 
+                type="password" 
+                placeholder="ingrese su contraseña"
+                maxlength="20" 
+                >
+
+            <label for="passwordConfirm">Confirm password</label>
+            <span class="warning" id="warningPasswordDiferent"></span>
+            <input 
+                id="passwordConfirm"
+                class="controls" 
+                type="password" 
+                placeholder="ingrese su contraseña"
+                maxlength="20" 
+                >
+
+            <p class="fuente">Estoy de acuerdo con los<a href="#"> Terminos y Condiciones</a>
+                <input type="checkbox" name="miCheck">
+            </p>
+            <button class="botons" id="btnForm" type="reset" >Crear</button>
+    </form>
+
+    <script src="../form.js"></script>
+</body>
+</html>

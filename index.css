@@ -1,8 +1,8 @@
 body{
     background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
    ),  url("./images/pageFondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,9 +64,14 @@ input{
     font-weight: bold;
 }
 
-#mensaje{
-    display: none;
+.warning{ 
+    text-align: center;
+    margin: auto;
+    color: rgb(240, 32, 32);
+    padding-top: 10px;
 }
+
+
 
 /* Navbar */
 a{
@@ -98,8 +103,7 @@ a {
 .footer {
     display: flex;
     justify-content: center;
-    background: rgb(36, 35, 37);
-    padding: 10px;
+    background: rgb(38, 6, 70);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -116,13 +120,47 @@ a {
 table{
     display: flex;
     justify-content: center;
+    font-size: large;
+    
 }
 th{
     border: solid 1px;
-    background: rgb(36, 35, 37);
-    margin-left: 10px;
+    background: rgb(92, 30, 92);
+    margin-left: px;
+    font-weight: bold;
 }
 td{
     border: solid 1px;
-    background: rgb(36, 35, 37);
+    background: rgb(92, 30, 92);
+}
+
+/* home */
+.layauts{
+    display: flex;
+}
+
+.align-left{
+    width: 30%;
+    border-right: solid 2px salmon;
+    padding: 8px;
+    margin-top: 10vh;
+}
+
+.align-right{
+    width: 65%;
+    margin-top: 10vh;
+}
+
+.imgHome{
+max-width: 100%;
+padding: 8px;
+margin-left: 5px;
+}
+
+.mt{
+    margin-bottom: 10vh;
+}
+
+.change {
+    flex-direction: row-reverse;
 }

@@ -1,54 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../index.css">
     <title>Home</title>
 </head>
 <body>
-    <nav>
-        <ul class="menuNav">
-            <ol class="navs"><a href="index.html">Home</a></ol>
-            <ol class="navs"><a href="abaut.html">Abaut</a></ol>
-            <ol class="navs"><a href="contact.html">Contact</a></ol>
-          </ul>
-    </nav>
-    
-    <header>
-        <h1>Desarrollo Web Full Stack</h1> 
-    </header>
+    <div>
+        <nav>
+            <ul class="menuNav">
+                <ol class="navs"><a href="index.html">Home</a></ol>
+                <ol class="navs"><a href="abaut.html">Abaut</a></ol>
+                <ol class="navs"><a href="contact.html">Contact</a></ol>
+              </ul>
+        </nav>
+        <header>
+            <h1>Desarrollo Web Full Stack</h1> 
+        </header>
 
-    <div id="mensaje"></div>
-    
-    <form class="form-register" id="form" action="#">
-        <h3>Formulario</h3>
-        <input  
-            class="controls" 
-            type="email" 
-            id="email" 
-            placeholder="Ingrese su email" 
-            maxlength="20"
-            required>
-        <input 
-            class="controls" 
-            type="password"
-            id="password" 
-            placeholder="ingrese su contraseña"
-            maxlength="20" 
-            required>
+        <div class="layauts mt">
+            <div class="align-left">
+                <h3>¿Qué es y qué hace un Desarrollador Full Stack?</h3>
+                <p>
+                    En la actualidad, las empresas están diseñando estrategias profundas y de transformación digital, 
+                    por lo que están en la búsqueda de profesionales con altas competencias tecnológicas. La cuarta Revolución 
+                    Industrial llegó para también establecer demandas laborales que estén a la par de las exigencias del mundo 
+                    moderno.
+                    Un perfil full stack es, metafóricamente hablando, como aquel amigo que sabe jugar todos los deportes,
+                    y todos los hace bien. Seguro tienes uno, ¿verdad? Pues bueno, acá pasa lo mismo, pero en el terreno 
+                    informático. Siempre garantiza el éxito de un proyecto porque cumple con la estrategia y los objetivos 
+                    que se plantean.
+                    Es capaz de trabajar con base de datos y servidores, asumir tareas de los administradores de sistemas. 
+                    Además, conoce la conexión entre la experiencia de un usuario cuando usa las interfaces, traduce sus 
+                    requisitos, comprende la arquitectura y la tecnología de un sitio.
+                </p>
+            </div>
+            <div class="align-right">
+                <img  class="imgHome"  src="../images/fullstack.png" alt="fullstack-image">
+            </div> 
+        </div>
+        
 
-        <p class="fuente">Estoy de acuerdo con los<a href="#"> Terminos y Condiciones</a></p>
-        <button class="botons" type="submit" id="enviar">Enviar</button>
-        <p><a href="#">Ya tienes una cuenta?</a></p>
-    </form>
-
-
-    <footer class="footer">
-        <p>Alumno: Mebrilla Juan Cruz</p>
-      </footer>
-
-     <script src="../index.ts"></script>
+        <footer class="footer">
+            <p>Alumno: Mebrilla Juan Cruz</p>
+        </footer>
+    </div>
 </body>
 </html>
