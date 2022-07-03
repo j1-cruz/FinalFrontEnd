@@ -1,8 +1,8 @@
 body{
     background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
    ),  url("./images/pageFondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,17 +99,6 @@ a {
 }
 
 
-/* Footer */
-.footer {
-    display: flex;
-    justify-content: center;
-    background: rgb(38, 6, 70);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%; 
-}
-
 /* Tabla */
 
 #titleContact {
@@ -134,24 +123,51 @@ td{
     background: rgb(92, 30, 92);
 }
 
-/* home */
-.layauts{
+/* FIn Tabla */
+
+
+.layouts{
     display: flex;
+    align-items: center;
 }
 
-.align-left{
+/* home */
+.align-right-home{
+    width: 65%;
+    margin-left: 5px;
+}
+
+.align-right-home p{
+    font-weight: bold;
+}
+
+.align-left-home{
     width: 30%;
     border-right: solid 2px salmon;
     padding: 8px;
     margin-top: 10vh;
 }
 
-.align-right{
+.img-home{
+    max-width: 100%;
+    }
+
+/* abaut */
+
+.align-left-abaut{
+    width: 30%;
+    padding: 8px;
+    margin-top: 10vh;
+}
+
+.align-right-abaut{
+    border-left: solid 2px salmon;
     width: 65%;
     margin-top: 10vh;
 }
 
-.imgHome{
+
+.img-abaut{
 max-width: 100%;
 padding: 8px;
 margin-left: 5px;
@@ -161,6 +177,13 @@ margin-left: 5px;
     margin-bottom: 10vh;
 }
 
-.change {
-    flex-direction: row-reverse;
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background: rgb(38, 6, 70);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
 }

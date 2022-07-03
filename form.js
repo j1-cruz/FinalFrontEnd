@@ -18,20 +18,20 @@ btnForm.addEventListener("click", function () {
     if (nombre.value.length < 5) {
         warningName.innerHTML = "Nombre demaciado corto";
     }
-    if (lastname.value.length < 5) {
+    else if (lastname.value.length < 5) {
         warningLastName.innerHTML = "Apellido demaciado corto";
     }
-    if (!mailformatForm.test(emailForm.value)) {
+    else if (!mailformatForm.test(emailForm.value)) {
         warningEmailForm.innerHTML = "El mail no es valido";
     }
-    if (passwordForm.value.length < 8 || passwordForm.value === null) {
+    else if (passwordForm.value.length < 8 || passwordForm.value === null) {
         warningPasswordCorto.innerHTML = "Verifica tu password";
     }
-    if (passwordForm.value !== passwordConfirm.value) {
+    else if (passwordForm.value !== passwordConfirm.value) {
         console.log("Contraseñas no son iguales");
         warningPasswordDiferent.innerHTML = "Las contraseñas no coinciden";
     }
     else {
-        window.location.href = "./inicio.html";
+        location.href = "./inicio.html";
     }
 });

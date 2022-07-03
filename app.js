@@ -12,7 +12,7 @@ btnIniciarSesion.addEventListener("click", function () {
         console.log("Contraseña corta");
         warningPassword.innerHTML = "Contraseña incorrecta";
     }
-    if (!mailformat.test(email.value)) {
+    else if (!mailformat.test(email.value)) {
         warningEmail.innerHTML = "El mail no es valido";
     }
     else {
